@@ -42,5 +42,4 @@ I have salefe education in basics of programming by reading books and solving ta
 >     My English level is A2 Pre-Intermideat, but I learn English to raise my level
 ## My Progects
 >     My progect is this CV
-efnefefineifsefn;e
 
