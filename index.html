@@ -1,8 +1,67 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
- <title>MyCV</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander_Tukach_CV</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>Hello,GitHub!</h1>
+    <header>
+        <div style="text-align: center;">
+            <h1 title="This is my CV"> Alexander Tukach</h1>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <h2>About me</h2>
+            <p><img class="image1" src="photo.jpg" alt="my_photo" >I was born 21 of June 1991. I am married and I have two childrens. My strengths are learnability, perseverance, sociability, composure, ability to act in difficult situations. I have more than 3 years expirience in people management. My main task now to be a programmer, and i will do all to become it.</p>
+        <h2 title="All the information are real">Conatact information</h2>
+            <ul>
+                <li>Mobile: +375-29-133-71-53</li>
+                <li>Telegram, Viber, WhatsApp: +375-29-133-71-53</li>
+                <li>E-mail: alexander.tukach@gmail.com</li>
+                <li><a href="https://github.com/alexander-tukach">GitHub: alexander_tukach</a></li>
+                <li>Discord: Alex (@alexander_tukach)</li>
+            </ul>
+        <h2>My programming skills</h2>
+            <p>I know Pascal. Below code example. I have read book about programming basics by <a href="http://stolyarov.info/">Andrey Victorovich Stolyarov</a>.</p>
+        <h2>Code example</h2>
+            <pre><code>
+    program TestProc;
+    type
+      intnumber = ^number;
+      number = record
+      first: integer;
+      second: intnumber;
+      end;
+    var
+      count, one: intnumber;
+      i: integer;
+    begin
+      one:= nil;
+      while not eof do
+        readln(i);
+        new(count);
+        count^.first := i;
+        count^.second := one;
+      writeln(count^.first)
+    end.
+            </code></pre>
+        <h2>Education</h2>
+            <p>I have ended <a href="https://ucp.by/structure/faculties/inzhenernyy-fakultet-g-gomel/">Gomel Engineering Institute Ministry of Emergency Situations</a> in 2012. I have self-study in basics of programming by reading books and solving tasks in Pascal.</p>
+        <h2>Level of English</h2>
+            <p>My English level is A2 Pre-Intermideat, but I learn English to raise my level.</p>
+        <h2>My Progects</h2>
+            <p>My progect is this CV</p>
+        <hr>
+    </main>
+    <footer>
+        <pre><a href="https://rs.school/js/"><img class="image2" src="rs_school_js.svg" alt="RSSchool icon"></a>My Github:<a href="https://github.com/alexander-tukach">alexander_tukach</a>.</pre>
+        <pre>2022</pre>
+        <pre>with <a href="https://rs.school/js/">RSSchool</a></pre>
+    </footer>
 </body>
 </html>
