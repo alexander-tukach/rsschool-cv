@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(79, 79, 79);
+    color: #4f4f4f;
     background-color: aliceblue;
     margin: 0px 20px 0px 20px;
 }
@@ -12,11 +12,11 @@ body {
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
-    color: black;
+    color: #000000;
 }
 h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: #000;
+    color: #000000;
     margin: 0px 20px 0px 20px;
 }
 hr {
