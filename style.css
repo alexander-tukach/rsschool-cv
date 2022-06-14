@@ -23,3 +23,8 @@ hr {
     border-color: red;
     border-width: 5px;
 }
+.image2 {
+    float: right;
+    margin: 20px;
+    width: 5%;
+}
