@@ -33,7 +33,7 @@ begin
         count^.first := i;
         count^.second := one;
     writeln(count^.first)
-end. 
+end.
 ```
 ## Education
 >    I have ended Gomel Engineering Institute Ministry of Emergency Situations in 2012.
