@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="myName">Alexander Tukach</h1>
+    </header>
+    <main>
+        <img src="./myPhoto1.jpg" alt="alexander_tukach" class="myPhoto">
+    <h2 class="par">About me</h2>
+    <div class="par__text text1">I was born 21 of June 1991. I am married and I have two childrens. My strengths are learnability, perseverance, sociability, composure, ability to act in difficult situations. I have more than 3 years expirience in people management. My main task now to to fresh my knowleges of html, css and js.</div>
+    <h2 class="par">Contact information</h2>
+    <div class="par__text cotactList">
+        <ul class="contactsList__list">
+            <li class="list__element">Mobile: +375-29-133-71-53</li>
+            <li class="list__element">Telegram, Viber, WhatsApp: +375-29-133-71-53</li>
+            <li class="list__element">E-mail: alexander.tukach@gmail.com</li>
+            <li class="list__element">GitHub: alexander_tukach</li>
+            <li class="list__element">Discord: Alex (@alexander_tukach)</li>
+        </ul>
+    </div>
+    <h2 class="par">My programming skills</h2>
+    <div class="par__text">I know Pascal, bases of html and css, also bases of JS</div>
+    <h2 class="par">Code example</h2>
+    <pre class="par__text">program TestProc;
+        type
+            intnumber = ^number;
+            number = record
+            first: integer;
+            second: intnumber;
+            end;
+        var
+            count, one: intnumber;
+            i: integer;
+        begin
+            one:= nil;
+            while not eof do
+                readln(i);
+            new(count);
+                count^.first := i;
+                count^.second := one;
+            writeln(count^.first)
+        end.</pre>
+        <div class="wrapper">
+            <div class="wrapperInWrapper">
+                <h2 class="par">Education</h2>
+                <div class="par__text">I have ended Gomel Engineering Institute Ministry of Emergency Situations in 2012. I have salefe education in basics of programming by reading books and solving tasks in Pascal and learning html, css, js</div>
+            </div>
+            <div class="wrapperInWrapper">
+                <h2 class="par">Level of English</h2>
+                <div class="par__text">My English level is A2 Pre-Intermideat, but I learn English to raise my level</div>
+            </div>
+            <div class="wrapperInWrapper">
+                <h2 class="par">My Progects are:</h2>
+                <ul class="contactsList__list">
+                    <li class="list__element"><a href="https://alexander-tukach.github.io/rsschool-cv/" class="link">this CV</a></li>
+                    <li class="list__element"><a href="https://alexander-tukach.github.io/japanese_travel/odigo_project/" class="link">the Odigo site</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+     <footer>
+         <div class="footerWrapper">
+            <a href="https://alexander-tukach.github.io/" class="link">My GitHub</a>
+            <div class="par__text">2022</div>
+            <a href="https://rs.school/" class="imgLink"><img src="./rs_school_js.svg" alt="rs_school" class="imgLinkPhoto"></a>
+         </div>
+     </footer>
+</body>
+</html>
