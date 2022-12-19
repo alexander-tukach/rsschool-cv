@@ -30,3 +30,16 @@ body {
     text-decoration: dashed;
     color: blueviolet;
 }
+
+.imgLinkPhoto {
+    width: 100px;
+}
+
+footer {
+    margin: 0 20%;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+}
