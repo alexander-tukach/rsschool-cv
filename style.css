@@ -2,5 +2,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #4f4f4f;
     background-color: aliceblue;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 20px 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.myName {
+    text-align: center;
+}
+
+.myPhoto {
+    width: 30%;
+    margin-left: 70%;
+    position: absolute;
+}
+
+.text1 {
+    width: 65%;
+}
+
+.link {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+:hover.link {
+    text-decoration: dashed;
+    color: blueviolet;
 }
